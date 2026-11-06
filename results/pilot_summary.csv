@@ -1,0 +1,5 @@
+source,WER_%,keyword_recall,keyword_false_alarm,rules_recall,rules_false_alarm,bert_recall,bert_false_alarm
+truth,0.0,0.6,0.1,0.0,0.0,0.6,0.3
+small.en,2.1,0.6,0.1,0.0,0.0,0.6,0.3
+base.en,2.8,0.6,0.1,0.0,0.0,0.6,0.3
+tiny.en,2.8,0.6,0.1,0.0,0.0,0.6,0.3

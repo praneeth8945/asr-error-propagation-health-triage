@@ -1,0 +1,7 @@
+keyword,whisper,clips_with_keyword,keyword_kept_%
+heart,small.en,51,86.3
+heart,base.en,51,88.2
+heart,tiny.en,51,86.3
+breath,small.en,20,95.0
+breath,base.en,20,80.0
+breath,tiny.en,20,75.0

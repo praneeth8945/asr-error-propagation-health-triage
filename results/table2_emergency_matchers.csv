@@ -1,0 +1,53 @@
+source,method,recall,false_alarm
+Correct (human),DistilBERT only,0.802,0.011
+Correct (human),keyword,0.901,0.024
+Correct (human),DistilBERT + keyword,0.901,0.024
+Correct (human),fuzzy90,0.901,0.024
+Correct (human),DistilBERT + fuzzy90,0.901,0.024
+Correct (human),fuzzy80,0.901,0.051
+Correct (human),DistilBERT + fuzzy80,0.901,0.051
+Correct (human),fuzzy70,0.901,0.214
+Correct (human),DistilBERT + fuzzy70,0.901,0.214
+Correct (human),phonetic,0.901,0.159
+Correct (human),DistilBERT + phonetic,0.901,0.159
+Correct (human),fuzzy80+phonetic,0.901,0.187
+Correct (human),DistilBERT + fuzzy80+phonetic,0.901,0.187
+Whisper small.en,DistilBERT only,0.714,0.029
+Whisper small.en,keyword,0.802,0.036
+Whisper small.en,DistilBERT + keyword,0.802,0.041
+Whisper small.en,fuzzy90,0.802,0.036
+Whisper small.en,DistilBERT + fuzzy90,0.802,0.041
+Whisper small.en,fuzzy80,0.813,0.049
+Whisper small.en,DistilBERT + fuzzy80,0.813,0.054
+Whisper small.en,fuzzy70,0.835,0.194
+Whisper small.en,DistilBERT + fuzzy70,0.835,0.199
+Whisper small.en,phonetic,0.824,0.154
+Whisper small.en,DistilBERT + phonetic,0.824,0.159
+Whisper small.en,fuzzy80+phonetic,0.824,0.168
+Whisper small.en,DistilBERT + fuzzy80+phonetic,0.824,0.172
+Whisper base.en,DistilBERT only,0.714,0.026
+Whisper base.en,keyword,0.802,0.032
+Whisper base.en,DistilBERT + keyword,0.802,0.042
+Whisper base.en,fuzzy90,0.802,0.032
+Whisper base.en,DistilBERT + fuzzy90,0.802,0.042
+Whisper base.en,fuzzy80,0.802,0.046
+Whisper base.en,DistilBERT + fuzzy80,0.802,0.055
+Whisper base.en,fuzzy70,0.835,0.175
+Whisper base.en,DistilBERT + fuzzy70,0.835,0.184
+Whisper base.en,phonetic,0.824,0.147
+Whisper base.en,DistilBERT + phonetic,0.824,0.157
+Whisper base.en,fuzzy80+phonetic,0.824,0.16
+Whisper base.en,DistilBERT + fuzzy80+phonetic,0.824,0.17
+Whisper tiny.en,DistilBERT only,0.692,0.036
+Whisper tiny.en,keyword,0.78,0.036
+Whisper tiny.en,DistilBERT + keyword,0.78,0.049
+Whisper tiny.en,fuzzy90,0.78,0.036
+Whisper tiny.en,DistilBERT + fuzzy90,0.78,0.049
+Whisper tiny.en,fuzzy80,0.78,0.048
+Whisper tiny.en,DistilBERT + fuzzy80,0.78,0.061
+Whisper tiny.en,fuzzy70,0.835,0.168
+Whisper tiny.en,DistilBERT + fuzzy70,0.835,0.181
+Whisper tiny.en,phonetic,0.791,0.146
+Whisper tiny.en,DistilBERT + phonetic,0.791,0.159
+Whisper tiny.en,fuzzy80+phonetic,0.791,0.158
+Whisper tiny.en,DistilBERT + fuzzy80+phonetic,0.791,0.171

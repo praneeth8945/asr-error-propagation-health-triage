@@ -1,0 +1,5 @@
+source,WER_%,WER_emergency_%,accuracy,macro_f1,emerg_recall_classifier,emerg_recall_rules,emerg_recall_either,false_alarm_either
+Correct (human),0.0,0.0,0.708,0.622,0.56,0.0,0.56,0.034
+Whisper small.en,10.385,9.311,0.635,0.562,0.462,0.033,0.495,0.041
+Whisper base.en,13.163,10.116,0.622,0.553,0.516,0.022,0.538,0.047
+Whisper tiny.en,21.719,12.892,0.592,0.524,0.484,0.011,0.495,0.05

@@ -1,0 +1,5 @@
+source,accuracy,macro_f1,emerg_recall,false_alarm
+Correct (human),0.856,0.798,0.802,0.011
+Whisper small.en,0.756,0.697,0.714,0.029
+Whisper base.en,0.74,0.683,0.714,0.026
+Whisper tiny.en,0.699,0.635,0.692,0.036

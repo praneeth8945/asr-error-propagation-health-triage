@@ -1,0 +1,21 @@
+file,code,speaker,truth,is_emergency,small.en,base.en,tiny.en
+E01_PS.m4a,E01,PS,My heart is pounding and it hurts.,True,My heart is pounding and it hurts.,My heart is pounding and it hurts.,My heart is pounding and it hurts.
+E02_PS.m4a,E02,PS,I have a sharp pain in my heart.,True,I have a sharp pain in my heart.,I have a sharp pain in my heart.,I have a sharp pain in my heart.
+E03_PS.m4a,E03,PS,I can't catch my breath.,True,I can't catch my breath.,I can't catch my breath.,I can't catch my breath.
+E04_PS.m4a,E04,PS,I am short of breath even when sitting.,True,I am short of breath even when sitting.,I am short of breath even when sitting.,I am short of breath even when sitting.
+E05_PS.m4a,E05,PS,My chest feels very tight and heavy.,True,My chest feels very tight and heavy.,My chest feels very tight and heavy.,My chest feels very tight and heavy.
+E06_PS.m4a,E06,PS,It is hard to breathe when I lie down.,True,It's hard to breathe when I lie down.,It's hard to breathe when I lie down.,It's hard to breathe when I lie down.
+E07_PS.m4a,E07,PS,I can't get enough air.,True,I can't get enough air.,I can't get enough air.,I can't get enough air.
+E08_PS.m4a,E08,PS,I am gasping after climbing two steps.,True,I am gasping after climbing two steps.,I am gasping after clamping two steps.,I am gasping after climbing two steps.
+E09_PS.m4a,E09,PS,My left arm is numb and my jaw hurts.,True,My left arm is numb and my jaw hurts.,My left arm is numb and my jaw hurts.,My left arm is numb and my jaw hurts.
+E10_PS.m4a,E10,PS,I feel like I am drowning on dry land.,True,I feel like I am drowning on dry land.,I feel like I am drowning on dry land.,I feel like I am drowning on dry land.
+N01_PS.m4a,N01,PS,I feel tired because of the heat outside.,False,I feel tired because of the heat outside.,I feel tired because of the heat outside.,I feel tired because of the heat outside.
+N02_PS.m4a,N02,PS,It is hard to sleep at night.,False,It is hard to sleep at night.,It is hard to sleep at night.,It is hard to sleep at night.
+N03_PS.m4a,N03,PS,I have bad breath in the morning.,False,I have bad breath in the morning.,I have bad breath in the morning.,I have bad breath in the morning.
+N04_PS.m4a,N04,PS,My head hurts after reading for long.,False,My head hurts after reading for long.,My head hurts after reading for long.,My head hurts after reading for long.
+N05_PS.m4a,N05,PS,I hurt my knee playing cricket.,False,I hurt my knee playing cricket.,I hurt my knee playing cricket.,I heard my knee playing cricket.
+N06_PS.m4a,N06,PS,My heel hurts when I walk.,False,My heel hurts when I walk.,My heel hurts when I walk.,My heel hurts when I walk.
+N07_PS.m4a,N07,PS,I have a runny nose and I sneeze a lot.,False,I have a runny nose and I sneeze a lot.,I have a runny nose and I sneeze a lot.,I have a runny nose and I sneeze a lot.
+N08_PS.m4a,N08,PS,My skin is dry and itchy.,False,My skin is dry and itchy.,My skin is dry and itchy.,My skin is dry and itchy.
+N09_PS.m4a,N09,PS,I have pain in my lower back.,False,I have a pain in my lower back.,I have a pain in my lower back.,I have a pain in my lower back.
+N10_PS.m4a,N10,PS,My hat feels tight on my forehead.,False,My hat feels tight on my forehead.,My hat feels tight on my forehead.,My hat feels tight on my forehead.
