@@ -1,0 +1,6 @@
+# Pinned to a 2024-era local stack.
+streamlit==1.39.0
+faster-whisper==1.0.3
+scikit-learn==1.5.2
+joblib==1.4.2
+

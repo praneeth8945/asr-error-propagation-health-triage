@@ -1,0 +1,115 @@
+{
+  "dataset_name": "Synthetic Guided Symptom Check-in Question Bank",
+  "version": "1.0",
+  "medical_notice": "Project-authored educational prompts only. They are not clinical protocols, diagnoses, medicine recommendations, or dosage instructions.",
+  "standard_questions": [
+    {
+      "id": "emergency_warning_check",
+      "prompt": "Before continuing: are any emergency warning signs happening now, such as chest pain or pressure, serious breathing difficulty, fainting, face/arm/speech changes, heavy bleeding, or thoughts of self-harm?",
+      "input_type": "choice",
+      "choices": ["Yes", "No", "Not sure", "Prefer not to answer"],
+      "risk_key": "emergency_warning_check"
+    },
+    {
+      "id": "onset",
+      "prompt": "When did this concern begin?",
+      "input_type": "choice",
+      "choices": ["Less than 24 hours ago", "1 to 3 days ago", "More than 3 days ago", "Not sure", "Prefer not to answer"],
+      "risk_key": "none"
+    },
+    {
+      "id": "change",
+      "prompt": "How has it changed since it began?",
+      "input_type": "choice",
+      "choices": ["Getting worse quickly", "About the same", "Improving", "Not sure", "Prefer not to answer"],
+      "risk_key": "rapid_worsening"
+    },
+    {
+      "id": "daily_impact",
+      "prompt": "Is it stopping normal daily activities?",
+      "input_type": "choice",
+      "choices": ["Yes", "No", "Not sure", "Prefer not to answer"],
+      "risk_key": "daily_impact"
+    },
+    {
+      "id": "additional_context",
+      "prompt": "Is this for a child, a pregnant person, or someone with a serious existing health condition?",
+      "input_type": "choice",
+      "choices": ["Yes", "No", "Not sure", "Prefer not to answer"],
+      "risk_key": "needs_clinician_context"
+    }
+  ],
+  "topic_specific_questions": {
+    "headache_like": [
+      {
+        "id": "headache_sudden_or_unusual",
+        "prompt": "Was it sudden and very different from your usual headaches, or is there a new face/arm/speech change?",
+        "input_type": "choice",
+        "choices": ["Yes", "No", "Not sure", "Prefer not to answer"],
+        "risk_key": "sudden_or_neurological"
+      }
+    ],
+    "upper_respiratory_like": [
+      {
+        "id": "upper_respiratory_breathing",
+        "prompt": "Are you having difficulty breathing comfortably while resting?",
+        "input_type": "choice",
+        "choices": ["Yes", "No", "Not sure", "Prefer not to answer"],
+        "risk_key": "breathing_difficulty"
+      }
+    ],
+    "cough_like": [
+      {
+        "id": "cough_breathing",
+        "prompt": "Are you having difficulty breathing comfortably while resting, chest pain, or coughing blood?",
+        "input_type": "choice",
+        "choices": ["Yes", "No", "Not sure", "Prefer not to answer"],
+        "risk_key": "breathing_difficulty"
+      }
+    ],
+    "digestive_like": [
+      {
+        "id": "digestive_warning",
+        "prompt": "Are you unable to keep liquids down, or have blood-related symptoms or severe worsening abdominal pain?",
+        "input_type": "choice",
+        "choices": ["Yes", "No", "Not sure", "Prefer not to answer"],
+        "risk_key": "digestive_warning"
+      }
+    ],
+    "skin_irritation_like": [
+      {
+        "id": "skin_swelling",
+        "prompt": "Is there swelling of the face, lips, tongue, or throat?",
+        "input_type": "choice",
+        "choices": ["Yes", "No", "Not sure", "Prefer not to answer"],
+        "risk_key": "allergic_swelling"
+      }
+    ],
+    "urinary_like": [
+      {
+        "id": "urinary_warning",
+        "prompt": "Have you noticed blood in urine or severe pain?",
+        "input_type": "choice",
+        "choices": ["Yes", "No", "Not sure", "Prefer not to answer"],
+        "risk_key": "prompt_warning"
+      }
+    ],
+    "fever_body_ache_like": [
+      {
+        "id": "fever_rapid_change",
+        "prompt": "Are you rapidly getting worse or feeling unusually confused?",
+        "input_type": "choice",
+        "choices": ["Yes", "No", "Not sure", "Prefer not to answer"],
+        "risk_key": "rapid_decline_or_confusion"
+      }
+    ]
+  },
+  "final_question": {
+    "id": "additional_note",
+    "prompt": "Optional: add a short, non-identifying detail you want included in the clinician note.",
+    "input_type": "text",
+    "max_length": 300,
+    "risk_key": "none"
+  }
+}
+

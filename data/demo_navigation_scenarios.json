@@ -1,0 +1,39 @@
+{
+  "dataset_name": "Synthetic Conversation Navigation Scenarios",
+  "version": "1.0",
+  "medical_notice": "These invented examples demonstrate UI routing only. They are not patient records, medical guidance, or a clinical validation set.",
+  "scenarios": [
+    {
+      "id": "respiratory_information_flow",
+      "initial_text": "My nose is blocked and I keep sneezing.",
+      "broad_question_path": "upper_respiratory_like",
+      "expected_end_state": "educational_summary",
+      "synthetic": true
+    },
+    {
+      "id": "later_red_flag_override",
+      "initial_text": "I have had a cough since yesterday.",
+      "broad_question_path": "cough_like",
+      "later_answer": "I now have chest pain and cannot breathe.",
+      "expected_end_state": "emergency_message",
+      "synthetic": true
+    },
+    {
+      "id": "digestive_prompt_flow",
+      "initial_text": "My stomach feels upset after eating.",
+      "broad_question_path": "digestive_like",
+      "structured_answer": "Yes",
+      "structured_risk_key": "digestive_warning",
+      "expected_end_state": "prompt_professional_assessment",
+      "synthetic": true
+    },
+    {
+      "id": "medication_guard",
+      "initial_text": "What should I take for a headache?",
+      "broad_question_path": "none",
+      "expected_end_state": "medication_request_refusal",
+      "synthetic": true
+    }
+  ]
+}
+

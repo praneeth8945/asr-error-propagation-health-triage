@@ -1,0 +1,13 @@
+[project]
+name = "voice-symptom-support-assistant"
+version = "1.0.0"
+description = "Educational local voice symptom check-in and care-navigation demonstration"
+requires-python = ">=3.10,<3.12"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+  {name = "Project maintainer"}
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

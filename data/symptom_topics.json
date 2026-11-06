@@ -1,0 +1,93 @@
+{
+  "dataset_name": "Synthetic Symptom Topic Demonstration Set",
+  "version": "1.0",
+  "created_for": "Academic speech-processing demonstration",
+  "medical_notice": "Synthetic examples only. They are not patient records, medical advice, or a clinical dataset.",
+  "topics": [
+    {
+      "id": "headache_like",
+      "label": "headache-type symptoms",
+      "examples": [
+        "I have had a headache since this morning",
+        "There is pressure around my forehead",
+        "My head hurts and bright light bothers me",
+        "I feel pain on one side of my head",
+        "I have a dull ache behind my eyes",
+        "My headache gets worse after looking at a screen"
+      ]
+    },
+    {
+      "id": "upper_respiratory_like",
+      "label": "runny-nose or sore-throat symptoms",
+      "examples": [
+        "My nose is blocked and I keep sneezing",
+        "I have a sore throat and runny nose",
+        "My throat feels scratchy today",
+        "I am congested with a stuffy nose",
+        "I keep sneezing and my nose is watery",
+        "I have nasal congestion and a mild sore throat"
+      ]
+    },
+    {
+      "id": "cough_like",
+      "label": "cough-related symptoms",
+      "examples": [
+        "I have been coughing since yesterday",
+        "A dry cough is keeping me awake",
+        "I keep coughing when I talk",
+        "My cough is irritating my throat",
+        "I have a cough with mucus",
+        "I am coughing more at night"
+      ]
+    },
+    {
+      "id": "digestive_like",
+      "label": "digestive discomfort",
+      "examples": [
+        "My stomach feels upset after eating",
+        "I feel nauseous and bloated",
+        "I have loose stools today",
+        "There is cramping in my stomach",
+        "I feel indigestion after meals",
+        "My abdomen feels uncomfortable and gassy"
+      ]
+    },
+    {
+      "id": "skin_irritation_like",
+      "label": "skin irritation or allergy-like symptoms",
+      "examples": [
+        "I have an itchy rash on my arm",
+        "My skin is red and irritated",
+        "I keep getting itchy patches",
+        "There are small bumps on my skin",
+        "My eyes are itchy and my skin is itchy too",
+        "A new product made my skin feel irritated"
+      ]
+    },
+    {
+      "id": "urinary_like",
+      "label": "urinary symptoms",
+      "examples": [
+        "It hurts when I pass urine",
+        "I need to urinate very often",
+        "There is burning while I pee",
+        "I feel an urgent need to use the bathroom",
+        "My lower abdomen feels uncomfortable when I urinate",
+        "I have frequent urination and discomfort"
+      ]
+    },
+    {
+      "id": "fever_body_ache_like",
+      "label": "fever or body-ache symptoms",
+      "examples": [
+        "I feel feverish with body aches",
+        "I have chills and muscle pain",
+        "My whole body feels sore and warm",
+        "I have a temperature and feel tired",
+        "I have fatigue with aches all over",
+        "I feel hot and have joint aches"
+      ]
+    }
+  ]
+}
+
